@@ -1,6 +1,6 @@
 # HU_Adult-JavaScript-Examples1
 
-###Working with Variables
+### Working with Variables
 
 let hello = 'Hello world!';
 
