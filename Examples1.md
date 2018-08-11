@@ -2,14 +2,22 @@
 
 ### Working with Variables
 
-let hello = 'Hello world!';
+1. let hello = 'Hello world!';
+2. let message;
+3. message = hello; // copy 'Hello world' from hello into message
+4. // now two variables hold the same data
+5. alert(hello); // Hello world!
+6. alert(message); // Hello world!
 
-let message;
+### Show the Sign
 
-// copy 'Hello world' from hello into message
-message = hello;
+*The if statement may contain an optional “else” block. It executes when the condition is wrong.*
 
-// now two variables hold the same data
-alert(hello); // Hello world!
-alert(message); // Hello world!
+1. let year = prompt('What Year is it?', '');
+2. if (year === 2018) {
+3.    alert( 'You guessed it right!' );
+4. } 
+5. else {
+6.    alert( 'How can you be so wrong?' ); // any value except 2018
+7. }
 
