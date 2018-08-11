@@ -9,7 +9,7 @@
 5. alert(hello); // Hello world!
 6. alert(message); // Hello world!
 
-### Show the Sign
+### Show the Sign/Check the Login
 
 *The if statement may contain an optional “else” block. It executes when the condition is wrong.*
 
@@ -21,3 +21,9 @@
 6.    alert( 'How can you be so wrong?' ); // any value except 2018
 7. }
 
+### Nesting For Loops
+1. for (let i = 0; i < 10; i++) {
+2.  if (i % 2) {
+3.    alert( i );
+4.  }
+5. }
