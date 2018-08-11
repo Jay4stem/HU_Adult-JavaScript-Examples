@@ -27,3 +27,15 @@
 3.    alert( i );
 4.  }
 5. }
+
+### Array Operations
+1. let fruits = ["Apple", "Orange", "Pear"];
+2. alert( fruits.pop() ); // remove "Pear" and alert it
+3. alert( fruits ); // Apple, Orange
+4. fruits.push("Pear");
+5. alert( fruits ); // Apple, Orange, Pear
+6. alert( fruits.shift() ); // remove Apple and alert it
+7. alert( fruits ); // Orange, Pear
+8. fruits.push("Orange", "Peach");
+9. fruits.unshift("Pineapple", "Lemon");
+10. alert( fruits ); // ["Pineapple", "Lemon", "Orange", "Peach"]
